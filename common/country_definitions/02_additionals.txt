@@ -1,0 +1,197 @@
+﻿XXX= {
+	color = { 100 100 100 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { cariban }
+	capital = STATE_SOUTH_ATLANTIC_ISLANDS
+}
+
+CH01= { #燕（北京）
+    color = { 100 130 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_ZHILI
+}
+
+CH02= { #遼（盛京）
+    color = { 130 130 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_SHENGJING
+}
+
+CH03 = { #晋（山西）
+    color = { 130 100 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_SHANXI
+}
+
+CH04 = { #秦（西安）
+    color = { 130 130 100 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_XIAN
+}
+
+CH05 = { #魏（河南）
+    color = { 160 130 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_HENAN
+}
+
+CH06 = { #斉（山東）
+    color = { 130 160 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_SHANDONG
+}
+
+CH07 = { #楚（湖南）
+    color = { 130 130 160 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_HUNAN
+}
+
+CH08 = { #呉（上海）
+    color = { 160 160 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_SUZHOU
+}
+
+CH09 = { #越（浙江）
+    color = { 160 130 160 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_ZHEJIANG
+}
+
+CH10 = { #閩（福建）
+    color = { 130 160 160 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han min hakka }
+	capital = STATE_FUJIAN
+}
+
+CH11 = { #梁（西北）
+    color = { 160 160 160 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han mongol uighur }
+	capital = STATE_NINGXIA
+}
+
+CH12 = { #大理（雲南）
+    color = { 70 130 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han bin zhuang miao }
+	capital = STATE_YUNNAN
+}
+
+CH13 = { #蜀（四川）
+    color = { 130 70 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han miao }
+	capital = STATE_SICHUAN
+}
+
+CH14 = { #巴（重慶）
+    color = { 130 130 70 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han bin miao }
+	capital = STATE_CHONGQING
+}
+
+CH15 = { #南越（広東・広西）
+    color = { 150 130 100 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { han bin miao yue }
+	capital = STATE_GUANGDONG
+}
+
+CH16 = { #金（満州）
+    color = { 100 130 150 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { manchu han }
+	capital = STATE_SOUTHERN_MANCHURIA
+}
+
+NSBR = { #ノヴォシビルスク
+    color = { 200 130 150 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_TOMSK
+}
