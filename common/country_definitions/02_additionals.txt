@@ -195,3 +195,31 @@ NSBR = { #ノヴォシビルスク
 	cultures = { russian }
 	capital = STATE_TOMSK
 }
+
+SMOL = { #スモレンスク
+
+}
+
+NOVG = { #ノブゴロド
+
+}
+
+KRSK = { #クルスク
+
+}
+
+RYZN = { #リャザン
+
+}
+
+VLAD = { #ウラジミール
+
+}
+
+MSKV = { #モスクワ
+
+}
+
+VGER = { #ヴォルガ＝ドイツ
+
+}

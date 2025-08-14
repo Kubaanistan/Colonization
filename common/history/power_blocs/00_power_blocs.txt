@@ -1,2 +1,0 @@
-﻿POWER_BLOCS = {
-}
