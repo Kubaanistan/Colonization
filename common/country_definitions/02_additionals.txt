@@ -197,29 +197,78 @@ NSBR = { #ノヴォシビルスク
 }
 
 SMOL = { #スモレンスク
+    color = { 130 200 150 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_SMOLENSK
 }
 
 NOVG = { #ノブゴロド
+    color = { 130 150 200 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_NOVGOROD
 }
 
 KRSK = { #クルスク
+    color = { 200 150 130 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_KURSK
 }
 
 RYZN = { #リャザン
+    color = { 150 200 130 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_RYAZAN
 }
 
 VLAD = { #ウラジミール
+    color = { 200 180 180 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_YAROSLAVL
 }
 
 MSKV = { #モスクワ
+    color = { 50 10 150 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
 }
 
 VGER = { #ヴォルガ＝ドイツ
+    color = { 20 30 10 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian south_german }
+	capital = STATE_TARTARIA
 }
