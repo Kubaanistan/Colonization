@@ -1,5 +1,0 @@
-﻿DIPLOMACY = {
-	c:AUS ?= { 
-		set_relations = { country = c:MOL value = 30 }
-	}
-	}
