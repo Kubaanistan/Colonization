@@ -1,0 +1,134 @@
+﻿expand_claims_decision = {
+	is_shown = {
+		always = yes
+	}
+
+	possible = {
+		# クールタイム
+		custom_tooltip = {
+			text = expand_claims_cooldown_check
+			NOT = { has_variable = expand_claims_cooldown }
+		}
+		
+		# 自国領内で植民地化中のステートがない
+		NOT = {
+            any_scope_state = {
+                is_under_colonization = yes
+            }
+        }
+		
+		# 隣接する州に、自国の請求権がついていない州がある
+		any_scope_state = {
+            any_neighbouring_state = {
+                NOT = { owner = ROOT }
+                NOT = { has_claim_by = ROOT } 
+            }
+        }  
+	}
+
+	when_taken = {
+	# 表示されている条件と同じ州に確実に付与
+		every_scope_state = {
+			limit = {
+				any_neighbouring_state = {
+					NOT = { owner = ROOT }
+					NOT = { has_claim_by = ROOT }
+				}
+			}
+			random_neighbouring_state = {
+				limit = {
+					NOT = { owner = ROOT }
+					NOT = { has_claim_by = ROOT }
+				}
+				state_region = {
+					add_claim = ROOT
+				}
+				break = yes  # 最初の1つで停止
+			}
+		}
+		
+		set_variable = {
+			name = expand_claims_cooldown
+			days = 90
+		}
+	}
+
+	ai_chance = {
+		value = 100
+		if = {
+			limit = { country_rank >= rank_value:great_power }
+			add = 10
+		}
+	}
+}
+
+
+secure_capital_claims_decision = {
+	is_shown = {
+		# まだこの決定を実行していない
+		NOT = { has_variable = capital_claims_secured }
+		# 自分の首都があるステート地域を完全に所有していない場合のみ表示
+		capital = {
+			state_region = {
+				any_scope_state = {
+					NOT = { owner = ROOT }
+				}
+			}
+		}
+	}
+
+	possible = {
+		# 戦争中ではない
+		is_at_war = no
+		# 自分の首都があるステート地域に他国の領土がある
+		capital = {
+			state_region = {
+				any_scope_state = {
+					NOT = { owner = ROOT }
+				}
+			}
+		}
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = secure_capital_claims_tt
+		}
+		
+		# 首都があるステート地域に請求権を追加
+		capital = {
+			state_region = {
+				add_claim = ROOT
+			}
+		}
+		
+		# 法律「植民地再定住」を制定する
+		activate_law = law_type:law_frontier_colonization
+		
+		# この決定を実行したことを記録
+		set_variable = {
+			name = capital_claims_secured
+			value = yes
+		}
+	}
+
+	ai_chance = {
+		value = 100
+		
+		# 列強の場合はより積極的
+		if = {
+			limit = {
+				country_rank >= rank_value:great_power
+			}
+			add = 15
+		}
+		
+		# 地域大国の場合も積極的
+		if = {
+			limit = {
+				country_rank = rank_value:major_power
+			}
+			add = 10
+		}
+	}
+}
