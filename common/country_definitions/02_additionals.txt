@@ -9,6 +9,7 @@
 	capital = STATE_SOUTH_ATLANTIC_ISLANDS
 }
 
+#Chinese
 CH01= { #燕（北京）
     color = { 100 130 130 }
 	
@@ -19,7 +20,6 @@ CH01= { #燕（北京）
 	cultures = { han }
 	capital = STATE_ZHILI
 }
-
 CH02= { #遼（盛京）
     color = { 130 130 130 }
 	
@@ -30,7 +30,6 @@ CH02= { #遼（盛京）
 	cultures = { han }
 	capital = STATE_SHENGJING
 }
-
 CH03 = { #晋（山西）
     color = { 130 100 130 }
 	
@@ -41,7 +40,6 @@ CH03 = { #晋（山西）
 	cultures = { han }
 	capital = STATE_SHANXI
 }
-
 CH04 = { #秦（西安）
     color = { 130 130 100 }
 	
@@ -52,7 +50,6 @@ CH04 = { #秦（西安）
 	cultures = { han }
 	capital = STATE_XIAN
 }
-
 CH05 = { #魏（河南）
     color = { 160 130 130 }
 	
@@ -63,7 +60,6 @@ CH05 = { #魏（河南）
 	cultures = { han }
 	capital = STATE_HENAN
 }
-
 CH06 = { #斉（山東）
     color = { 130 160 130 }
 	
@@ -74,7 +70,6 @@ CH06 = { #斉（山東）
 	cultures = { han }
 	capital = STATE_SHANDONG
 }
-
 CH07 = { #楚（湖南）
     color = { 130 130 160 }
 	
@@ -85,7 +80,6 @@ CH07 = { #楚（湖南）
 	cultures = { han }
 	capital = STATE_HUNAN
 }
-
 CH08 = { #呉（上海）
     color = { 160 160 130 }
 	
@@ -96,7 +90,6 @@ CH08 = { #呉（上海）
 	cultures = { han }
 	capital = STATE_SUZHOU
 }
-
 CH09 = { #越（浙江）
     color = { 160 130 160 }
 	
@@ -107,7 +100,6 @@ CH09 = { #越（浙江）
 	cultures = { han }
 	capital = STATE_ZHEJIANG
 }
-
 CH10 = { #閩（福建）
     color = { 130 160 160 }
 	
@@ -118,7 +110,6 @@ CH10 = { #閩（福建）
 	cultures = { han min hakka }
 	capital = STATE_FUJIAN
 }
-
 CH11 = { #梁（西北）
     color = { 160 160 160 }
 	
@@ -129,7 +120,6 @@ CH11 = { #梁（西北）
 	cultures = { han mongol uighur }
 	capital = STATE_NINGXIA
 }
-
 CH12 = { #大理（雲南）
     color = { 70 130 130 }
 	
@@ -140,7 +130,6 @@ CH12 = { #大理（雲南）
 	cultures = { han bin zhuang miao }
 	capital = STATE_YUNNAN
 }
-
 CH13 = { #蜀（四川）
     color = { 130 70 130 }
 	
@@ -151,7 +140,6 @@ CH13 = { #蜀（四川）
 	cultures = { han miao }
 	capital = STATE_SICHUAN
 }
-
 CH14 = { #巴（重慶）
     color = { 130 130 70 }
 	
@@ -162,7 +150,6 @@ CH14 = { #巴（重慶）
 	cultures = { han bin miao }
 	capital = STATE_CHONGQING
 }
-
 CH15 = { #南越（広東・広西）
     color = { 150 130 100 }
 	
@@ -173,7 +160,6 @@ CH15 = { #南越（広東・広西）
 	cultures = { han bin miao yue }
 	capital = STATE_GUANGDONG
 }
-
 CH16 = { #金（満州）
     color = { 100 130 150 }
 	
@@ -185,6 +171,7 @@ CH16 = { #金（満州）
 	capital = STATE_SOUTHERN_MANCHURIA
 }
 
+#Russian
 NSBR = { #ノヴォシビルスク
     color = { 200 130 150 }
 	
@@ -195,31 +182,241 @@ NSBR = { #ノヴォシビルスク
 	cultures = { russian }
 	capital = STATE_TOMSK
 }
-
 SMOL = { #スモレンスク
+    color = { 130 200 150 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_SMOLENSK
 }
-
 NOVG = { #ノブゴロド
+    color = { 130 150 200 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_NOVGOROD
 }
-
 KRSK = { #クルスク
+    color = { 200 150 130 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_KURSK
 }
-
 RYZN = { #リャザン
+    color = { 150 200 130 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_RYAZAN
 }
-
 VLAD = { #ウラジミール
+    color = { 200 180 180 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_YAROSLAVL
 }
-
 MSKV = { #モスクワ
+    color = { 50 10 150 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
+}
+VGER = { #ヴォルガ＝ドイツ
+    color = { 20 30 10 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { russian alemannic }
+	capital = STATE_TARTARIA
 }
 
-VGER = { #ヴォルガ＝ドイツ
+#Middle Asian
+HRMZ = { #ホルムズ
+    color = { 20 80 10 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { persian bedouin }
+	capital = STATE_TARTARIA
+}
+
+#German
+BRND = { #ブランデンブルク
+    color = { 80 80 80 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_BRANDENBURG
+}
+OSTR = { #エスターライヒ
+    color = { 200 200 200 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_AUSTRIA
+}
+PRUS = { #プロイセン
+    color = { 30 30 30 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german polish }
+	capital = STATE_EAST_PRUSSIA
+}
+RCHT = { #リヒテンシュタイン
+	color = { 30 70 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { alemannic south_german }
+	capital = STATE_EAST_SWITZERLAND
+}
+PFLZ = { #プファルツ
+	color = { 30 140 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { alemannic south_german }
+	capital = STATE_RHINELAND
+}
+
+#French
+CSTD = { #コンスタンティノープル
+	color = { 100 200 220 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { greek }
+	capital = STATE_EASTERN_THRACE
+}
+STRS = { #ストラスブール
+	color = { 100 200 220 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { french alemanni }
+	capital = STATE_ALSACE_LORRAINE
+}
+ANGR = { #アンジュー
+	color = { 200 250 220 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { french british }
+	capital = STATE_MAINE_ANJOU
+}
+BURG = { #ブルゴーニュ
+	color = { 200 80 100 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { francoprovencal french alemannic }
+	capital = STATE_BURGUNDY
+}
+
+#Italian
+AVGN = { #アヴィニョン
+	color = { 200 200 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { french occitan alemannic north_italian south_italian  }
+	capital = STATE_BURGUNDY
+}
+RVNN = { #ラヴェンナ
+	color = { 50 50 100 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_ROMAGNA
+}
+NAPL = { #ナポリ
+	color = { 200 180 200 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_italian }
+	capital = STATE_CAMPANIA
+}
+MGGL = { #マグナ・グラエキア
+	color = { 200 200 250 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_italian greek }
+	capital = STATE_CALABRIA
+}
+SALD = { #サルデーニャ
+	color = { 30 200 30 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_italian greek }
+	capital = STATE_SALDINIA
+}
+PIED = { #ピエモンテ
+	color = { 50 200 80 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_italian greek }
+	capital = STATE_PIEDMONT
 }
