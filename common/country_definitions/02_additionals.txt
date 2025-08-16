@@ -420,3 +420,14 @@ PIED = { #ピエモンテ
 	cultures = { south_italian greek }
 	capital = STATE_PIEDMONT
 }
+
+#モンゴル
+KHLK #ハルハ
+HNGN #ヒンガン
+CHHR #チャハル
+ALSN #アラシャン（アルシャー）
+ORDS #オルドス
+KHST #ホシュート（青海）
+ZHUN #ジュンガル
+BRJT #ブリヤート
+

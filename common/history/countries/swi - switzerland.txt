@@ -37,7 +37,7 @@
 		}
 	}
 
-	c:ANL ? = {
+	c:ANL ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -60,7 +60,7 @@
 		}
 	}
 
-	c:NAV ? = {
+	c:NAV ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -82,7 +82,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:CAT ? = {
+	c:CAT ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -104,7 +104,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:BRI ? = {
+	c:BRI ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -126,7 +126,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:SAV ? = {
+	c:SAV ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -148,7 +148,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:BUL ? = {
+	c:BUL ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -170,7 +170,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:CRO ? = {
+	c:CRO ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -192,7 +192,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:ALB ? = {
+	c:ALB ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -214,7 +214,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:HUN ? = {
+	c:HUN ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -236,7 +236,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:BOH ? = {
+	c:BOH ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -259,7 +259,7 @@
 		}
 	}
 
-	c:BRND ? = {
+	c:BRND ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -281,7 +281,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:OSTR ? = {
+	c:OSTR ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -303,7 +303,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:PRUS ? = {
+	c:PRUS ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -325,7 +325,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:RCHT ? = {
+	c:RCHT ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -347,7 +347,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:PFLZ ? = {
+	c:PFLZ ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -369,7 +369,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:CSTD ? = {
+	c:CSTD ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -391,7 +391,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:STRS ? = {
+	c:STRS ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -413,7 +413,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:BURG ? = {
+	c:BURG ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -435,7 +435,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:ANGR ? = {
+	c:ANGR ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -457,7 +457,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:AVGN ? = {
+	c:AVGN ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -479,7 +479,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:RVNN ? = {
+	c:RVNN ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -501,7 +501,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:NAPL ? = {
+	c:NAPL ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -523,7 +523,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:MGGL ? = {
+	c:MGGL ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -545,7 +545,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:SALD ? = {
+	c:SALD ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -567,7 +567,144 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:PIED ? = {
+	c:PIED ?= {
+		# set_next_election_date = ???
+		
+		effect_starting_technology_tier_2_tech = yes
+		add_technology_researched = dialectics	
+		
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_right_of_assembly		
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_homesteading
+		ig:ig_rural_folk = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:VEN ?= {
+		# set_next_election_date = ???
+		
+		effect_starting_technology_tier_2_tech = yes
+		add_technology_researched = dialectics	
+		
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_right_of_assembly		
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_homesteading
+		ig:ig_rural_folk = {
+			add_ruling_interest_group = yes
+		}
+	}
+
+	c:IRE ?= {
+		# set_next_election_date = ???
+		
+		effect_starting_technology_tier_2_tech = yes
+		add_technology_researched = dialectics	
+		
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_right_of_assembly		
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_homesteading
+		ig:ig_rural_folk = {
+			add_ruling_interest_group = yes
+		}
+	}
+
+	c:SCO ?= {
+		# set_next_election_date = ???
+		
+		effect_starting_technology_tier_2_tech = yes
+		add_technology_researched = dialectics	
+		
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_right_of_assembly		
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_homesteading
+		ig:ig_rural_folk = {
+			add_ruling_interest_group = yes
+		}
+	}
+
+	c:WLS ?= {
+		# set_next_election_date = ???
+		
+		effect_starting_technology_tier_2_tech = yes
+		add_technology_researched = dialectics	
+		
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_right_of_assembly		
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_homesteading
+		ig:ig_rural_folk = {
+			add_ruling_interest_group = yes
+		}
+	}
+
+	c:CNW ?= {
+		# set_next_election_date = ???
+		
+		effect_starting_technology_tier_2_tech = yes
+		add_technology_researched = dialectics	
+		
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_right_of_assembly		
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_homesteading
+		ig:ig_rural_folk = {
+			add_ruling_interest_group = yes
+		}
+	}
+
+	c:ENG ?= {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes
