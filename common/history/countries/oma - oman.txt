@@ -186,6 +186,7 @@
 		activate_law = law_type:law_right_of_assembly
 
 	}
+
 	c:KUR ?={
 		effect_starting_technology_tier_4_tech = yes
 		
@@ -205,6 +206,7 @@
 		activate_law = law_type:law_right_of_assembly
 
 	}
+
 	c:ISR ?={
 		effect_starting_technology_tier_4_tech = yes
 		
