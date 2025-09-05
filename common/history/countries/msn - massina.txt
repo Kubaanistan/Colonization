@@ -1,0 +1,113 @@
+﻿COUNTRIES = {
+	c:MSN	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:AIN	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:NYM	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:MSI	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:KZM	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:LND	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:LBA	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:LNG	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:JLF	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:ADG	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:TSW	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:MNC	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:TSW	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+
+	c:TSW	?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_isolationism
+	}
+}

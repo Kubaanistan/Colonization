@@ -422,12 +422,222 @@ PIED = { #ピエモンテ
 }
 
 #モンゴル
-KHLK #ハルハ
-HNGN #ヒンガン
-CHHR #チャハル
-ALSN #アラシャン（アルシャー）
-ORDS #オルドス
-KHST #ホシュート（青海）
-ZHUN #ジュンガル
-BRJT #ブリヤート
+KHLK = { #ハルハ
+	color = { 6 147 138 }
+	
+	country_type = recognized
 
+	tier = principality
+	
+	cultures = { mongol }
+	capital = STATE_PIEDMONT
+}
+
+JILM = { #ナイマン部
+	color = { 117 207 188 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { mongol }
+	capital = STATE_HINGGAN 
+}
+
+CHHR = { #チャハル
+	color = { 15 220 185 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { mongol }
+	capital = STATE_HINGGAN 
+}
+
+ALSN = { #アラシャン（アルシャー）
+	color = { 66 145 99 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { mongol }
+	capital = STATE_ALXA
+}
+
+ORDS = { #オルドス
+	color = { 248 45 164 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { mongol }
+	capital = STATE_HINGGAN 
+}
+
+KHST = { #ホシュート（青海）
+	color = { 189 180 145 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { mongol tibet }
+	capital = STATE_QINGHAI
+}
+
+ZHUN = { #ジュンガル
+	color = { 69 181 46 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { uighur mongol kazak }
+	capital = STATE_JETISY
+}
+
+URMQ = { #ウルムチ
+	color = {0 244 236 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { uighur }
+	capital = STATE_DZUNGARIA
+}
+
+QRMI = { #カラマイ
+	color = { 18 0 236 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { uighur }
+	capital = STATE_DZUNGARIA
+}
+
+KHOT = { #ホータン
+	color = { 18 244 0 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { uighur }
+	capital = STATE_TIANSHAN
+}
+
+YARK = { #ヤルカンド
+	color = { 244 18 236 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { uighur }
+	capital = STATE_TIANSHAN
+}
+
+#America
+TCMS = { #テカムセ（北西インディアン）
+
+}
+
+#鉄の同盟（クリー）→バニラタグ参照
+#セミノール→バニラタグ参照
+CHRK = { #チェロキー
+
+}
+#ハイダ族
+#ハドソン湾会社
+#アラワク
+#マラニョン
+#カリブ
+
+#Other
+HLSG = { #ヘルシンギア
+	color = { 244 18 236 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { swedish }
+	capital = STATE_NORRLAND
+}
+#グリーンランド
+#ヴィンランド
+
+#ロシア
+#カムチャダール
+#イテリメン
+#ユカギール
+#チュクチ
+#エヴェンキ
+#ネネツ
+#オビ
+#ハカス
+#ニブフ
+#ナナイ
+#ウリチ
+#ショル
+#ドルガン
+#ハンティ
+#マンシ
+#マリエル
+#バシキール
+#モルドヴィン
+#チュヴァシ
+#エルジャ
+#モクシャ
+#ペルミャク
+#ウドムルト
+#カレリア
+#ヴェプス
+#サーミ
+#アブハズ
+#クムク
+#ダルギン
+#ノガイ
+#アヴァール
+#ラク
+#レズギ
+#ルトゥル
+#タバサラン
+#ツァフル
+#アグール
+#イングーシ
+#バルカル
+
+#マショナ
+#ラインラント
+#メクレンブルク
+#ワルシャワ
+#マゾフシェ
+#ハールィチ=ヴォルイーニ
+#モルドヴァ
+#へレロ
+#ウバンギシャリ
+#ゴビール
+#ワダイ
+#ソンガイ
+#ヌビア
+#スーダン
+#コプト教会
+#トゥアレグ
+
+#ピチャンチャチャラ
+#クイーンズランド
+#ヴィクトリア
+#ノーザンテリトリー
+#グラ族
+#ユイ族
+#ヨルング族
+#クーリー族
+
+#カレン族
