@@ -21,20 +21,6 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
-		if = {
-			limit = {
-				has_dlc_feature = ep1_content
-			}
-			add_journal_entry = { type = je_caucasian_war }
-		}
-
-		add_company = company_type:company_russian_american_company
-		company:company_russian_american_company = {
-			set_company_establishment_date = 1799.7.8
-			set_company_state_region = s:STATE_INGRIA
-			add_owned_country = c:ALK
-		}
 	}
 
 	c:VGER ?= {
@@ -59,13 +45,6 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
-		if = {
-			limit = {
-				has_dlc_feature = ep1_content
-			}
-			add_journal_entry = { type = je_caucasian_war }
-		}
 	}
 	c:MSKV ?={
 		effect_starting_technology_tier_3_tech = yes
@@ -89,13 +68,6 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
-		if = {
-			limit = {
-				has_dlc_feature = ep1_content
-			}
-			add_journal_entry = { type = je_caucasian_war }
-		}
 	}
 	c:VLAD ?={
 		effect_starting_technology_tier_3_tech = yes
@@ -119,13 +91,6 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
-		if = {
-			limit = {
-				has_dlc_feature = ep1_content
-			}
-			add_journal_entry = { type = je_caucasian_war }
-		}
 	}
 	c:RYZN ?={
 		effect_starting_technology_tier_3_tech = yes
@@ -149,13 +114,6 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
-		if = {
-			limit = {
-				has_dlc_feature = ep1_content
-			}
-			add_journal_entry = { type = je_caucasian_war }
-		}
 	}
 	c:KRSK ?={
 		effect_starting_technology_tier_3_tech = yes
@@ -179,13 +137,6 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
-		if = {
-			limit = {
-				has_dlc_feature = ep1_content
-			}
-			add_journal_entry = { type = je_caucasian_war }
-		}
 	}
 	c:NOVG ?={
 		effect_starting_technology_tier_3_tech = yes
@@ -209,13 +160,6 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
-		if = {
-			limit = {
-				has_dlc_feature = ep1_content
-			}
-			add_journal_entry = { type = je_caucasian_war }
-		}
 	}
 	c:SMOL ?={
 		effect_starting_technology_tier_3_tech = yes
@@ -239,13 +183,6 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
-		if = {
-			limit = {
-				has_dlc_feature = ep1_content
-			}
-			add_journal_entry = { type = je_caucasian_war }
-		}
 	}
 	c:NSBR ?={
 		effect_starting_technology_tier_3_tech = yes
@@ -269,13 +206,6 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
-		if = {
-			limit = {
-				has_dlc_feature = ep1_content
-			}
-			add_journal_entry = { type = je_caucasian_war }
-		}
 	}
 	c:UKR ?={
 		effect_starting_technology_tier_3_tech = yes
