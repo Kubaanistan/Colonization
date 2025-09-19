@@ -1,0 +1,14 @@
+﻿l_japanese:
+ CEL: "ケルト連合"
+ CEL_ADJ: "ケルト連合"
+ dp_unify_celtic: "ケルト統一"
+ dp_unify_celtic_tooltip: "#header $dp_unify_celtic$ [concept_diplomatic_play]を開始#!\n$TOOLTIP_DELIMITER$\n$dp_unify_celtic_desc$"
+ dp_unify_celtic_desc: "アイルランド、スコットランド、ウェールズ、ブルターニュのケルト系諸国を統一し、ケルト国家を形成します。"
+ dp_leadership_celtic: "ケルトのリーダーシップ"
+ dp_leadership_celtic_desc: "$dp_leadership_celtic$ [concept_diplomatic_play]を開始\n$TOOLTIP_DELIMITER$\n$dp_leadership_celtic_tooltip_desc$"
+
+ dp_unify_gbr: "グレートブリテン統一"
+ dp_unify_gbr_tooltip: "#header $dp_unify_gbr$ [concept_diplomatic_play]を開始#!\n$TOOLTIP_DELIMITER$\n$dp_unify_gbr_desc$"
+ dp_unify_gbr_desc: "イングランド、スコットランドの諸国を統一し、グレートブリテン国家を形成します。"
+ dp_leadership_gbr: "グレートブリテンのリーダーシップ"
+ dp_leadership_gbr_desc: "$dp_leadership_gbr$ [concept_diplomatic_play]を開始\n$TOOLTIP_DELIMITER$\n$dp_leadership_gbr_tooltip_desc$"

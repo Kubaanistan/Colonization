@@ -925,32 +925,35 @@ dp_unify_china = {
 	texture = "gfx/interface/icons/war_goals/annex_country.dds"
 
 	selectable_in_lens = {
-		OR = {
-			has_journal_entry = je_reunify_china
-			global_var:chinese_central_government ?= THIS
-			c:CHI ?= this
-		}
+		# OR = {
+		# 	has_journal_entry = je_reunify_china
+		# 	global_var:chinese_central_government ?= THIS
+		# 	c:CHI ?= this
+		# }
 	}
 
 	possible = {
 		NOT = { is_country_type = decentralized }
 		is_subject = no
-		OR = {
-			has_journal_entry = je_reunify_china
-			global_var:chinese_central_government ?= THIS
-			c:CHI ?= this
-		}
 
-		scope:target_country = {
-			NOT = { is_country_type = decentralized }
-			aggressive_diplomatic_plays_permitted = yes
-			OR = {
-				has_journal_entry = je_reunify_china
-				global_var:chinese_central_government ?= THIS
-				country_has_primary_culture = cu:han
-				country_has_primary_culture = cu:manchu
-			}
-		}
+		country_has_primary_culture = cu:han
+		country_has_primary_culture = cu:manchu
+		# OR = {
+		# 	has_journal_entry = je_reunify_china
+		# 	global_var:chinese_central_government ?= THIS
+		# 	c:CHI ?= this
+		# }
+
+		# scope:target_country = {
+		# 	NOT = { is_country_type = decentralized }
+		# 	aggressive_diplomatic_plays_permitted = yes
+		# 	OR = {
+		# 		has_journal_entry = je_reunify_china
+		# 		global_var:chinese_central_government ?= THIS
+		# 		country_has_primary_culture = cu:han
+		# 		country_has_primary_culture = cu:manchu
+		# 	}
+		# }
 	}
 
 	on_weekly_pulse = {}
@@ -1218,6 +1221,162 @@ dp_sepoy_mutiny = {
 	possible = {}
 
 	ai_acceptance_max = 75
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+# ケルト連合
+dp_unify_celtic = {
+	war_goal = unification
+
+	requires_interest_marker = no
+	blocked_by_diplomatic_status = no
+	add_infamy_for_starting_initiator_wargoals = no
+
+	texture = "gfx/interface/icons/war_goals/unify_celtic.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		NOT = { exists = c:CEL }
+		NOT = { is_country_type = decentralized }
+		has_technology_researched = nationalism
+		NOT = {
+			any_state = {
+				filter = {
+					state_region = {
+						OR = {
+							is_homeland = cu:irish
+							is_homeland = cu:welsh
+							is_homeland = cu:scottish
+							is_homeland = cu:breton
+						}
+					}
+				}
+				owner = { is_country_type = decentralized }
+			}
+		}
+	}
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_leadership_celtic = {
+	war_goal = unification_leadership
+
+	requires_interest_marker = no
+	mirror_war_goal = yes
+
+	texture = "gfx/interface/icons/war_goals/unify_italy.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = {
+			any_state = {
+				filter = {
+					state_region = {
+						OR = {
+							is_homeland = cu:irish
+							is_homeland = cu:welsh
+							is_homeland = cu:scottish
+							is_homeland = cu:breton
+						}
+					}
+				}
+				owner = { is_country_type = decentralized }
+			}
+		}
+	}
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+# イギリス
+dp_unify_gbr = {
+	war_goal = unification
+
+	requires_interest_marker = no
+	blocked_by_diplomatic_status = no
+	add_infamy_for_starting_initiator_wargoals = no
+
+	texture = "gfx/interface/icons/war_goals/unify_gbr.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		NOT = { exists = c:GBR }
+		NOT = { is_country_type = decentralized }
+		has_technology_researched = nationalism
+		NOT = {
+			any_state = {
+				filter = {
+					state_region = {
+						OR = {
+							is_homeland = cu:british
+							is_homeland = cu:scottish
+						}
+					}
+				}
+				owner = { is_country_type = decentralized }
+			}
+		}
+	}
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_leadership_gbr = {
+	war_goal = unification_leadership
+
+	requires_interest_marker = no
+	mirror_war_goal = yes
+
+	texture = "gfx/interface/icons/war_goals/unify_gbr.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = {
+			any_state = {
+				filter = {
+					state_region = {
+						OR = {
+							is_homeland = cu:british
+							is_homeland = cu:scottish
+						}
+					}
+				}
+				owner = { is_country_type = decentralized }
+			}
+		}
+	}
 
 	on_weekly_pulse = {}
 

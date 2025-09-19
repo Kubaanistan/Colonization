@@ -1,0 +1,10 @@
+CEL = {
+	color = { 147 130 110 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { irish welsh breton scottish }
+	capital = STATE_LEINSTER
+}
